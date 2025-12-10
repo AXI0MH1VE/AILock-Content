@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "axiomhive-sovereign"
+version = "3.1.0"
+authors = ["Alexis Adams alexis@axiomhive.org"]
+description = "Deterministic Neuro-Symbolic Sovereign AI Substrate"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.5"
+fastapi = "^0.104"
+uvicorn = "^0.24"
+cryptography = "^41.0"
+numpy = "^1.26"
+scipy = "^1.11"
